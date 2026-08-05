@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/icons/mob/animal.dmi and https://github.com/cmss13-devs/cmss13/blob/9392acb826182dd2df6b2800c64cec48feadc80e/icons/mob/humans/onmob/clothing/critters_shoulder.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "rat",
+      "directions": 4
+    },
+    {
+      "name": "dead"
+    },
+    {
+      "name": "splat"
+    },
+    {
+      "name": "equipped-EARS",
+      "directions": 4
+    }
+  ]
+}

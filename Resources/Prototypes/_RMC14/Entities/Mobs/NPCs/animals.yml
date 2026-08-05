@@ -94,27 +94,25 @@
   components:
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: _RMC14/Mobs/Animals/rat.rsi
+    sprite: _RMC14/Mobs/Animals/rat/white.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
-      state: rat-0
+      state: rat
   - type: DamageStateVisuals
     states:
       Alive:
-        Base: rat-0
+        Base: rat
       Critical:
-        Base: dead-0
+        Base: dead
       Dead:
-        Base: splat-0
+        Base: splat
   - type: Item
     size: Tiny
-    heldPrefix: 0
   - type: Clothing
     quickEquip: false
-    sprite: Mobs/Animals/mouse.rsi
-    equippedPrefix: 0
+    sprite: _RMC14/Mobs/Animals/rat/white.rsi
     slots:
-    - HEAD
+    - ears
 
 - type: entity
   parent: RMCMobRat
@@ -124,51 +122,60 @@
   description: It's a big, disease-ridden rodent.
   components:
   - type: Sprite
+    sprite: _RMC14/Mobs/Animals/rat/brown.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
-      state: rat-1
+      state: rat
   - type: DamageStateVisuals
     states:
       Alive:
-        Base: rat-1
+        Base: rat
       Critical:
-        Base: dead-1
+        Base: dead
       Dead:
-        Base: splat-1
+        Base: splat
+  - type: Clothing
+    sprite: _RMC14/Mobs/Animals/rat/brown.rsi
 
 - type: entity
   parent: RMCMobRatBrown
   id: RMCMobRatGray
   components:
   - type: Sprite
+    sprite: _RMC14/Mobs/Animals/rat/gray.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
-      state: rat-2
+      state: rat
   - type: DamageStateVisuals
     states:
       Alive:
-        Base: rat-2
+        Base: rat
       Critical:
-        Base: dead-2
+        Base: dead
       Dead:
-        Base: splat-2
+        Base: splat
+  - type: Clothing
+    sprite: _RMC14/Mobs/Animals/rat/gray.rsi
 
 - type: entity
   parent: RMCMobRatBrown
   id: RMCMobRatBlack
   components:
   - type: Sprite
+    sprite: _RMC14/Mobs/Animals/rat/black.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
-      state: rat-3
+      state: rat
   - type: DamageStateVisuals
     states:
       Alive:
-        Base: rat-3
+        Base: rat
       Critical:
-        Base: dead-3
+        Base: dead
       Dead:
-        Base: splat-3
+        Base: splat
+  - type: Clothing
+    sprite: _RMC14/Mobs/Animals/rat/black.rsi
 
 - type: entity
   parent: RMCMobRat
